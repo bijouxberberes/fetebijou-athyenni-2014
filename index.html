@@ -1,79 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="lib/normalize-3.0.1.css">
+<link rel="stylesheet" href="lib/jquery.fullPage-2.0.7.css">
+<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="home.css">
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+<title>Fête du bijou</title>
+ 
+</head>
+<body>
+<div class="loading" style="position: fixed; left: 0; top: 0; right: 0; bottom: 0; background-color: #000; z-index: 10000; font-family: sans-serif;">
+</div>
+<div class="video-popup">
+<video class="fg-video" loop>
+<source src="video/video.webm" type="video/webm">
+<source src="video/video.mp4" type="video/mp4">
+</video>
+<a class="close-icon"><i class="fa fa-times"></i></a>
+</div>
+<div id="fullpage">
+<div class="section section-video">
+<video class="bg-video" autoplay loop muted>
+<source src="video/video.webm" type="video/webm">
+<source src="video/video.mp4" type="video/mp4">
+</video>
+<div class="video-click-shield"></div>
+<div class="banner logo">
+<img src="img/logo.png" alt="Fête bijou">
+</div>
+<h1 class="banner title">07 au 15 Août 2014<br/>Ath Yenni, Tizi-Ouzou, Algérie</h1>
+<div class="banner play-video">
+<a class="play-video-button">
+<svg width="60px" height="100px" viewBox="20 0 60 100">
+<circle class="play-icon-circle" cx="50" cy="50" r="28"/>
+<path class="play-icon-triangle" d="M43,40 L63,50 L43,60 Z"/>
+</svg>
+<span class="label large-text">Voir la vidéo</span>
+</a>
+</div>
+<div class="banner cta">
+<a href="https://www.facebook.com/events/337053083109283" class="cta-button" >événement</a>
+</div>
+<div class="banner indicators">
+<span class="indicator"><i class="fa fa-chevron-down"></i></span>
+</div>
+</div>
+<div class="section section-1">
+<div class="wrap">
+<div class="content">
+<div class="centered">
+</div>
+</div>
+</div>
+<div class="banner indicators">
+<span class="indicator"><i class="fa fa-chevron-down"></i></span>
+</div>
+</div>
+<div class="section section-2">
+<div class="wrap">
+<div class="content">
+<div class="centered">
+</div>
+</div>
+</div>
+<div class="banner indicators">
+<span class="indicator"><i class="fa fa-chevron-down"></i></span>
+</div>
+</div>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Fetebijou-athyenni-2014 : Fête du bijou Ath Yenne 2014" />
+<div class="section section-3">
+<div class="wrap">
+<div class="content">
+<div class="centered">
+</div>
+</div>
+</div>
+<div class="banner indicators">
+<a href="#" class="cta-button" onclick="location.reload()">
+<span class="indicator"><i class="fa fa-chevron-up"></i></span>
+Haut de page
+<span class="indicator"><i class="fa fa-chevron-up"></i></span>
+</a>
+</div>
+</div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Fetebijou-athyenni-2014</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/bijouxberberes/fetebijou-athyenni-2014">View on GitHub</a>
-
-          <h1 id="project_title">Fetebijou-athyenni-2014</h1>
-          <h2 id="project_tagline">Fête du bijou Ath Yenne 2014</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/bijouxberberes/fetebijou-athyenni-2014/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/bijouxberberes/fetebijou-athyenni-2014/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Fetebijou-athyenni-2014 maintained by <a href="https://github.com/bijouxberberes">bijouxberberes</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<script src="lib/jquery-1.11.1.min.js"></script>
+<script src="lib/jquery.fullPage-2.0.7.min.js"></script>
+<script src="home.js"></script>
+ 
+</body>
 </html>
